@@ -1,17 +1,56 @@
-<html>
-<body>
 <!DOCTYPE html>
 <html>
 <head>
-<title>A Bit About Me</title>
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.section {
+    text-align: left;
+}
+
+header {background: black;color:#F6CED8;}
+footer {background: #F6CED8;color:black;}
+
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .section {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
 </head>
 <body>
-<body style="background-color:#58FAD0;">
 
-<h1 style="font-family:verdana;">A Bit About Me</h1>
-<p style="font-family:verdana;">Hello there! My name is Maria Milekhina and I'm a girl who codes. I decided to learn coding this summer because I'm curious and like trying new things. My favorite subjects in school are History, English, and Foreign Language (I'm studying French and Spanish). I live in Brooklyn with my mom, dad, and eleven year old brother.</p>
+<div class="flex-container">
+<header>
+  <h1>Maria Milekhina</h1>
+</header>
 
-<table style="width:50%"> 
+
+  <h1>About Me</h1>
+  <p>Hello there! My name is Maria Milekhina and I'm a girl who codes. I decided to learn coding this summer because I'm curious and like trying new things. My favorite subjects in school are History, English, and Foreign Language (I'm studying French and Spanish). I live in Brooklyn with my mom, dad, and eleven year old brother.
+
+
+
+  <h1>My Work: Side Scroller Game</h1>
+  <p>This game, created using Scratch, is called "The Adventures of the Amazing Tampon." The premise is that you have to help the tampon jump over any obstacles to get the girl in time. We were inspired by other girls who code that created the game "Tampon Run." </p>
+  <p><strong></strong></p>
+
+
+
+<table style="width:100%"> 
   <tr>
     <th>My Likes</th>
     <th>My Dislikes</th> 
@@ -30,34 +69,24 @@
   </tr>
 </table>
 
-<h2 style="font-family:verdana;">My Work</h2>
-<h3 style="font-family:verdana;">Side Scroller Game</h3>
-<p4 style="font-family:verdana;">This game, created using Scratch, is called "The Adventures of the Amazing Tampon." The premise is that you have to help the tampon jump over any obstacles to get the girl in time. We were inspired by other girls who code that created the game "Tampon Run." 
-
 
 <!DOCTYPE html>
 <head>
 <style>
 table, th, td {
-    border: 3px solid  blue;
+    border: 3px solid  black;
 }
 </style>
 </head>
 <body>
-
-
 
 <h4> My Favorite Webpages: </h4>
 <a href="https://www.buzzfeed.com">Buzzfeed,</a> 
 <a href="https://www.nytimes.com">New York Times</a> 
 <a href="https://www.facebook.com">and Facebook</a>
 
-</body>
-</html>
 
-
-
-
+</div>
 
 </body>
 </html>
