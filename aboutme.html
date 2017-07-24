@@ -1,104 +1,101 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <style> 
-  .flex-container {
-      display: -webkit-flex;
-      display: flex;  
-      -webkit-flex-flow: row wrap;
-      flex-flow: row wrap;
-      text-align: center;
-  }
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<body> 
+<title style="font-size:80px;">Maria Milekhina</title>
+<h style="font-size:40px;">About Me :) </h>
+</html>
+</head>
+</body>
 
-  .flex-container > * {
-      padding: 15px;
-      -webkit-flex: 1 100%;
-      flex: 1 100%;
-  }
-
-  .section {
-      text-align: left;
-  }
-
-  header {background: black;color:#F6CED8;}
-  footer {background: #F6CED8;color:black;}
+<html>
+<body>
 
 
-  @media all and (min-width: 768px) {
-      .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
-      .section {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
-      footer {-webkit-order:3;order:3;}
-  }
-  </style>
-  </head>
-  <body>
+<button onclick="AboutMe()">Click Here To Learn A Bit About Me</button>
 
-  <div class="flex-container">
-  <header>
-    <h1  style="font-size:80px;">Maria Milekhina</h1>
-h  </header>
+<script>
+function AboutMe() {
+    document.write("Hello there! My name is Maria Milekhina and I'm a girl who codes. I decided to learn coding this summer because I'm curious and like trying new things. My favorite subjects in school are History, English, and Foreign Language. I'm currently studying French and Spanish. I live in Brooklyn with my mom, dad, and eleven year old brother."). innerHTML.AboutMe()
+}
+</script>
 
-  <h1 style="font-size:40px;">About Me</h1>
-    <p style="font-size:24px;"> Hello there! My name is Maria Milekhina and I'm a girl who codes. I decided to learn coding this summer because I'm curious and like trying new things. My favorite subjects in school are History, English, and Foreign Language (I'm studying French and Spanish). I live in Brooklyn with my mom, dad, and eleven year old brother. </p>
-   
+</body>
+</html> 
+<html>
+<body>
+<p style="font-size:40px;"> My "likes and dislikes."</p>
+<button onclick="Likes()">Some Things I Like</button>
+
+<script>
+
+function Likes() {
+    document.write("Cheesy pasta, everything about Robyn Rihanna Fenty, the TV series 'Shameless'").innerHTML.Likes()
+}
+
+</script>
+</body>
+</html> 
+
+<button onclick="Dislikes()">Some Things I Dislike</button>
+
+<script>
+
+function Dislikes() {
+    document.write("Papaya, cold weather and the smell of burnt popcorn.").innerHTML.Dislikes()
+}
+
+</script>
+</body>
+</html> 
 
 
+<h2 style="font-size:40px;"> My Work: Scroller Game</h2>
 
-    <h2 style="font-size:40px;"> My Work: Scroller Game</h2>
 <img src="tampon_game_screenshot.png" alt="Screenshot of Game" style="width:152px;height:114px;">
-    <p style="font-size:24px;">This game, created using Scratch, is called "The Adventures of the Amazing Tampon." The premise is that you have to help the tampon jump over any obstacles to get the girl in time. We were inspired by other girls who code that created the game "Tampon Run." </p>
+
+<p style="font-size:20px;">This game, created using Scratch, is called "The Adventures of the Amazing Tampon." The premise is that you have to help the tampon jump over any obstacles to get the girl in time. We were inspired by other girls who code that created the game "Tampon Run." </p>
+
     <p><strong></strong></p>
 
 
 
-  <table style="width:100%"> 
-    <tr>
-      <th style="font-size:24px;">My Likes</th>
-      <th style="font-size:24px;">My Dislikes</th> 
-    </tr>
-    <tr>
-      <td style="font-size:24px;">Pasta</td>
-      <td style="font-size:24px;">Papaya</td>
-    </tr>
-    <tr>
-      <td style="font-size:24px;">Rihanna</td>
-      <td style="font-size:24px;">Smell of burnt popcorn</td>
-    </tr>
-    <tr>
-      <td style="font-size:24px;">Dancing</td>
-      <td style="font-size:24px;">Cold weather</td>
-    </tr>
-  </table>
-
-
-  <!DOCTYPE html>
-  <head>
-  <style>
-  table, th, td {
-      border: 5px solid  pink;
-  }
-  </style>
-  </head>
-  <body>
-
   <h4 style="font-size:40px;"> My Favorite Webpages: </h4>
-  <a href="https://www.buzzfeed.com">Buzzfeed,</a> 
-  <a href="https://www.nytimes.com">New York Times</a> 
-  <a href="https://www.facebook.com">and Facebook</a>
+
+  <a style="font-size:40px;" href="https://www.buzzfeed.com">Buzzfeed,</a> 
+
+  <a style="font-size:40px;" href="https://www.nytimes.com">the New York Times,</a> 
+
+  <a style="font-size:40px;" href="https://www.facebook.com"> and Facebook</a>
+
+
 
     <h5 style="font-size:40px;"> Fun Fact : </h5>
+
     <p5 style="font-size:34px;"> I'm a vegetarian! </p5>
+
     
+
     <h6 style="font-size:40px;"> Journal Entry: July 12, first day of Python </h6>
-    <p6  style="font-size:24px;"> Both Scratch and Python have the pen function (pen up, pen down) and the ability to draw shapes. This allows for the shapes to then change in color, and for the pen to have different thickness, to account for angular motion, and to move certain lengths. Also, Scratch and Python both have the ability to create loops.  Some differences between Python and Scratch is that Python works by typing lines of code, using elements like integers and floats, colons and parentheses. Scratch is a more visual way to program, using drag and drop to input lines of code. Python runs on a computer through a Terminal/Command Prompt, whereas Scratch runs on the Web. Debugging my program today was one of the many challenges I faced being introduced to Python for the first time. It was fun for me to try different lines of code and see how the Turtle would draw them. Any time I saw an error message, I had to see what was wrong in my program. Sometimes my error was as minor as forgetting a colon, other times it was using a word. Overall, I enjoyed the problem-solving and overcoming obstacles along the way to create a program that worked. </p6>
+<p6  style="font-size:24px;"> Both Scratch and Python have the pen function (pen up, pen down) and the ability to draw shapes. This allows for the shapes to then change in color, and for the pen to have different thickness, to account for angular motion, and to move certain lengths. Also, Scratch and Python both have the ability to create loops.  Some differences between Python and Scratch is that Python works by typing lines of code, using elements like integers and floats, colons and parentheses. Scratch is a more visual way to program, using drag and drop to input lines of code. Python runs on a computer through a Terminal/Command Prompt, whereas Scratch runs on the Web. Debugging my program today was one of the many challenges I faced being introduced to Python for the first time. It was fun for me to try different lines of code and see how the Turtle would draw them. Any time I saw an error message, I had to see what was wrong in my program. Sometimes my error was as minor as forgetting a colon, other times it was using a word. Overall, I enjoyed the problem-solving and overcoming obstacles along the way to create a program that worked. </p6>
+
     
-    <h7 style="font-size:40px;"><b> Journal Entry: July 17, first day of Robotics </b></h7>
-    <p7 style="font-size:24px;"> Today we discussed the ethics of robots in our world. We came to the conclusion that robots are never a black and white issue-- with every step in progress when it comes to this technology there are pros and cons. It is important to consider who will be benefited and who will be harmed by the development of certain technology. Examples of robots that inspire debate  are military drones and self-driving cars. While military drones make missions safer for the side that is deploying them, they desensitize the act of killing and result in higher casualties for those targeted by the drone. The U.S. drone missions in the Middle East are an example of this. And with self-driving cars, there is a question of safety and integrity of mechanics. With self-driving cars there is a risk that the software within the car gets hijacked by hackers or malfunctions.Thus, the ethics of robots are complicated and all perspectives must be considered. Furthermore, there is a question of just how much faith and trust humans are willing to put in robots. Are we willing to trust them with our lives? How do we keep our robot software secure? Prevent tampering? What about making robot technology accessible to people with disabilities and a positive influence for all? I’m excited for the progress that the field of robotics can bring, and how it can benefit a diverse array of people in the future. I do hope, however, that we are conscious of the ethical complexity of this field.</p7>
+<h7 style="font-size:40px;"><b> Journal Entry: July 17, first day of Robotics </b></h7>
+<p7 style="font-size:24px;"> Today we discussed the ethics of robots in our world. We came to the conclusion that robots are never a black and white issue-- with every step in progress when it comes to this technology there are pros and cons. It is important to consider who will be benefited and who will be harmed by the development of certain technology. Examples of robots that inspire debate  are military drones and self-driving cars. While military drones make missions safer for the side that is deploying them, they desensitize the act of killing and result in higher casualties for those targeted by the drone. The U.S. drone missions in the Middle East are an example of this. And with self-driving cars, there is a question of safety and integrity of mechanics. With self-driving cars there is a risk that the software within the car gets hijacked by hackers or malfunctions.Thus, the ethics of robots are complicated and all perspectives must be considered. Furthermore, there is a question of just how much faith and trust humans are willing to put in robots. Are we willing to trust them with our lives? How do we keep our robot software secure? Prevent tampering? What about making robot technology accessible to people with disabilities and a positive influence for all? I’m excited for the progress that the field of robotics can bring, and how it can benefit a diverse array of people in the future. I do hope, however, that we are conscious of the ethical complexity of this field.</p7>
+
     <p8 style="font-size:24px;"> Working on circuits in groups today was exciting. We built a basic LED circuit. There is still so much to be learned! My group experimented with various uses of the wires and lights, and although we weren’t always successful in getting the LED to light up, we didn’t give up. Next time, we will hopefully be able to work on getting a button function to work on the circuit, or we will build a parallel circuit.</p8> 
 
+
+
     <h8 style="font-size:40px;"><b> Journal Entry: July 19, Dancing Robots and Sensors </b></h7>
+
     <p9 style="font-size:24px;"> I learned that circuits can have two kinds of sensors, the infrared sensor and the photoresistor sensor. The infrared sensor returns binary data (0 or 1) to the computer, depending on whether or not there is something detected in front of the sensor, and can be used in the circuit to detect upcoming obstacles, like walls. The photoresistor sensor detects the presence of light, on a scale of 0 to about 850; the lower the number, the less light the sensor detects, and the higher the number, the more light the sensor detects. When we were programing our robots today to do dances, my favorite part was how our robot made turns to the beat of “Get Lucky” by Daft Punk. </p9>
+
   </div>
 
+
+
   </body>
+
   </html>
